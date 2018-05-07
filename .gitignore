@@ -5,4 +5,5 @@ wp-content/themes/practice/stylesheets/
 wp-content/themes/practice/style.css.map
 wp-content/updraft/
 wp-content/cache/
+wp-content/themes/practice/package-lock.json
 .htaccess
