@@ -1,0 +1,8 @@
+wp-config.php
+wp-content/uploads/
+wp-content/themes/practice/.sass-cache/
+wp-content/themes/practice/stylesheets/
+wp-content/themes/practice/style.css.map
+wp-content/updraft/
+wp-content/cache/
+.htaccess
