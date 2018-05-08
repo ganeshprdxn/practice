@@ -52,6 +52,10 @@ table {
   border-spacing: 0;
 }
 
+body {
+  font-family: Helvetica;
+}
+
 /*
 	Clear Fix
 */
@@ -62,4 +66,71 @@ table {
 
 .cf:after {
   clear: both;
+}
+
+header {
+  border-bottom: 5px solid #8cd523;
+}
+header .wrapper {
+  width: 96%;
+  margin: 0 auto;
+}
+header .site-branding {
+  float: left;
+  padding: 15px 0;
+}
+header .site-branding img {
+  width: 100%;
+}
+header .main-navigation {
+  float: right;
+  display: block;
+}
+@media (max-width: 995px) {
+  header .main-navigation {
+    padding: 25px 8px 29px 0;
+  }
+}
+header .main-navigation .hamburger {
+  display: none;
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  background: url("../images/ham.png");
+}
+@media (max-width: 995px) {
+  header .main-navigation .hamburger {
+    display: block;
+  }
+}
+header .main-navigation .menu li {
+  display: inline-block;
+}
+header .main-navigation .menu li.current-menu-item a {
+  color: #8cd523;
+}
+header .main-navigation .menu li a {
+  display: block;
+  text-decoration: none;
+  padding: 28px 25px;
+  color: #0a1c5a;
+  font-weight: 700;
+  font-size: 17px;
+}
+header .main-navigation .menu li a:hover {
+  color: #a0d127;
+  text-decoration: underline;
+}
+@media (max-width: 995px) {
+  header .main-navigation .menu {
+    display: none;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 19.8%;
+  }
+  header .main-navigation .menu > li {
+    display: block;
+    border-bottom: 2px solid #8cd523;
+  }
 }
